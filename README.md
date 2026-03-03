@@ -1,3 +1,48 @@
+# Budget Tracker
+
+A simple personal finance web app for tracking income and expenses, built with React and tested with Playwright.
+
+## Features
+
+- Add income and expense transactions
+- Live balance, total income, and total expense calculations
+- Delete transactions
+- Input validation with error messages
+
+## Tech Stack
+
+- **React** (Vite) — frontend UI
+- **Playwright** — end-to-end automated testing
+
+## Running the App
+```bash
+npm install
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.
+
+## Running the Tests
+
+Make sure the dev server is running first, then in a separate terminal:
+```bash
+npx playwright test
+```
+
+9 tests covering:
+- Balance calculations
+- Adding income and expense transactions
+- Deleting transactions
+- Input validation and edge cases
+
+## What I Learned
+
+- Building a React app with hooks and state management
+- Writing end-to-end tests with Playwright
+- Thinking about edge cases and how software breaks
+- Structuring a project for readability and testability
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
