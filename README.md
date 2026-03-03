@@ -2,6 +2,10 @@
 
 A simple personal finance web app for tracking income and expenses, built with React and tested with Playwright.
 
+## Live Demo
+
+https://budget-tracker-pied-seven.vercel.app/
+
 ## Features
 
 - Add income and expense transactions
